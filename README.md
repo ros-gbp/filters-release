@@ -1,3 +1,24 @@
+## filters (jade) - 1.7.4-3
+
+The packages in the `filters` repository were released into the `jade` distro by running `/usr/bin/bloom-release filters --track jade --rosdistro jade -e` on `Wed, 05 Aug 2015 00:38:11 -0000`
+
+The `filters` package was released.
+
+Version of package(s) in repository `filters`:
+- upstream repository: https://github.com/ros/filters.git
+- release repository: https://github.com/ros-gbp/filters-release.git
+- rosdistro version: `1.7.4-2`
+- old version: `1.7.4-2`
+- new version: `1.7.4-3`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## filters (jade) - 1.7.4-2
 
 The packages in the `filters` repository were released into the `jade` distro by running `/usr/bin/bloom-release filters --ros-distro jade --track jade --edit` on `Wed, 22 Apr 2015 05:43:31 -0000`
