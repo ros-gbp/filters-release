@@ -1,0 +1,13 @@
+Source: ros-kinetic-filters
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-pluginlib, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rostest
+Homepage: http://ros.org/wiki/filters
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-pluginlib, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-roslib
+Description: This library provides a standardized interface for processing data as a sequence of filters.
+ This package contains a base class upon which to build specific implementations as well as an interface which dynamically loads filters based on runtime parameters.
