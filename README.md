@@ -1,3 +1,26 @@
+## filters (kinetic) - 1.7.4-1
+
+The packages in the `filters` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release filters --track kinetic --rosdistro kinetic` on `Sat, 26 Mar 2016 21:04:53 -0000`
+
+The `filters` package was released.
+
+Version of package(s) in repository `filters`:
+
+- upstream repository: https://github.com/ros/filters.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.7.4-0`
+- new version: `1.7.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.38`
+
+
 ## filters (kinetic) - 1.7.4-0
 
 The packages in the `filters` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release filters --track kinetic --rosdistro kinetic --new-track` on `Sat, 26 Mar 2016 20:52:48 -0000`
