@@ -1,3 +1,26 @@
+## filters (lunar) - 1.7.5-0
+
+The packages in the `filters` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -t lunar -r lunar filters` on `Thu, 16 Mar 2017 22:03:44 -0000`
+
+The `filters` package was released.
+
+Version of package(s) in repository `filters`:
+
+- upstream repository: https://github.com/ros/filters.git
+- release repository: https://github.com/ros-gbp/filters-release.git
+- rosdistro version: `1.7.4-0`
+- old version: `1.7.4-0`
+- new version: `1.7.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.24`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## filters (lunar) - 1.7.4-0
 
 The packages in the `filters` repository were released into the `lunar` distro by running `/home/tfoote/work/workspaces/bloom/bloom_venv/bin/bloom-release -t lunar -r lunar filters` on `Mon, 13 Mar 2017 23:44:28 -0000`
