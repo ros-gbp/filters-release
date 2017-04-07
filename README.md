@@ -1,3 +1,26 @@
+## filters (lunar) - 1.8.0-0
+
+The packages in the `filters` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -t lunar -r lunar filters --edit` on `Fri, 07 Apr 2017 17:49:29 -0000`
+
+The `filters` package was released.
+
+Version of package(s) in repository `filters`:
+
+- upstream repository: https://github.com/ros/filters.git
+- release repository: https://github.com/ros-gbp/filters-release.git
+- rosdistro version: `1.7.5-1`
+- old version: `1.7.5-1`
+- new version: `1.8.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.25`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## filters (indigo) - 1.7.5-0
 
 The packages in the `filters` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo filters` on `Thu, 16 Mar 2017 22:58:08 -0000`
