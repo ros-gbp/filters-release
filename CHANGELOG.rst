@@ -2,6 +2,11 @@
 Changelog for package filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.1 (2017-04-25)
+------------------
+* Fix warning about string type
+* Contributors: Jon Binney
+
 1.8.0 (2017-04-07)
 ------------------
 
