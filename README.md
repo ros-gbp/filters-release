@@ -1,3 +1,26 @@
+## filters (melodic) - 1.8.1-0
+
+The packages in the `filters` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -t melodic -r melodic filters` on `Thu, 05 Apr 2018 02:33:09 -0000`
+
+The `filters` package was released.
+
+Version of package(s) in repository `filters`:
+
+- upstream repository: https://github.com/ros/filters.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.8.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## filters (lunar) - 1.8.1-0
 
 The packages in the `filters` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -t lunar -r lunar filters` on `Tue, 25 Apr 2017 21:03:23 -0000`
