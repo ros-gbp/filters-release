@@ -1,3 +1,26 @@
+## filters (melodic) - 1.8.2-1
+
+The packages in the `filters` repository were released into the `melodic` distro by running `/usr/bin/bloom-release filters --track melodic --ros-distro melodic` on `Wed, 13 Oct 2021 17:00:27 -0000`
+
+The `filters` package was released.
+
+Version of package(s) in repository `filters`:
+
+- upstream repository: https://github.com/ros/filters.git
+- release repository: https://github.com/ros-gbp/filters-release.git
+- rosdistro version: `1.8.1-0`
+- old version: `1.8.1-0`
+- new version: `1.8.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## filters (noetic) - 1.9.1-1
 
 The packages in the `filters` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic filters` on `Wed, 23 Sep 2020 08:51:06 -0000`
