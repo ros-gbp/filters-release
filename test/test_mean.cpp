@@ -28,10 +28,27 @@
  */
 
 #include <gtest/gtest.h>
-#include <sys/time.h>
-#include "filters/mean.hpp"
+#include <ctime>
+#include <cstdlib>
+#include "filters/mean.h"
 
 using namespace filters ;
+
+void seed_rand()
+{
+  std::srand(std::time(0));
+};
+
+void generate_rand_vectors(double scale, uint64_t runs, std::vector<double>& xvalues, std::vector<double>& yvalues, std::vector<double>&zvalues)
+{
+  seed_rand();
+  for ( uint64_t i = 0; i < runs ; i++ )
+  {
+    xvalues[i] = 1.0 * ((double) std::rand() - (double)RAND_MAX /2.0) /(double)RAND_MAX;
+    yvalues[i] = 1.0 * ((double) std::rand() - (double)RAND_MAX /2.0) /(double)RAND_MAX;
+    zvalues[i] = 1.0 * ((double) std::rand() - (double)RAND_MAX /2.0) /(double)RAND_MAX;
+  }
+}
 
 TEST(MultiChannelMeanFilterDouble, ConfirmIdentityNRows)
 {

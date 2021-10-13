@@ -2,20 +2,17 @@
 Changelog for package filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.9.1 (2020-09-23)
+1.8.2 (2021-10-13)
 ------------------
-* make FilterBase::getName() const
-* Making FilterBase::getParam const
-* narrow down required boost dependencies (`#40 <https://github.com/ros/filters/issues/40>`_)
-* [noetic] deprecate h for hpp (`#34 <https://github.com/ros/filters/issues/34>`_)
-* [noetic] Delete unused code (`#33 <https://github.com/ros/filters/issues/33>`_)
-* Bump CMake version to avoid CMP0048
-* Contributors: Alejandro Hernández Cordero, Mikael Arguedas, Shane Loretz, Tully Foote
-
-1.9.0 (2020-03-10)
-------------------
-* Reduce dependency on boost (`#30 <https://github.com/ros/filters/issues/30>`_)
-* Contributors: Shane Loretz
+* Make FilterBase::getName() const.
+* Make getParam() functions of FilterBase const
+* [Windows][lunar] Fix run_tests build breaks on Windows\MSVC (`#26 <https://github.com/ros/filters/issues/26>`_)
+  * fix test build break. (`#2 <https://github.com/ros/filters/issues/2>`_)
+  * use c standard lib.
+* Merge pull request `#29 <https://github.com/ros/filters/issues/29>`_ from mvieth/lunar-devel
+  Fix problem with illegal xml characters
+* Fix problem with illegal xml characters
+* Contributors: Jonathan Binney, Markus Vieth, Martin Pecka, Sean Yen, Tully Foote
 
 1.8.1 (2017-04-25)
 ------------------

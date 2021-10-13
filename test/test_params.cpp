@@ -28,8 +28,7 @@
  */
 
 #include <gtest/gtest.h>
-#include <sys/time.h>
-#include "filters/param_test.hpp"
+#include "filters/param_test.h"
 
 using namespace filters ;
 

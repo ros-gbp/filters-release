@@ -28,7 +28,7 @@
  */
 
 
-#include "filters/median.hpp"
+#include "filters/median.h"
 #include <pluginlib/class_list_macros.h>
 
 

@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "filters/mean.hpp"
+#include "filters/mean.h"
 #include "pluginlib/class_list_macros.h"
 
 
