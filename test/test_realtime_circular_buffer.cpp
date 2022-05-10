@@ -28,28 +28,12 @@
  */
 
 #include <gtest/gtest.h>
-#include <ctime>
-#include <cstdlib>
+#include <sys/time.h>
+
 #include <vector>
-#include "filters/realtime_circular_buffer.h"
+#include "filters/realtime_circular_buffer.hpp"
 
 using namespace filters ;
-
-void seed_rand()
-{
-  std::srand(std::time(0));
-};
-
-void generate_rand_vectors(double scale, uint64_t runs, std::vector<double>& xvalues, std::vector<double>& yvalues, std::vector<double>&zvalues)
-{
-  seed_rand();
-  for ( uint64_t i = 0; i < runs ; i++ )
-  {
-    xvalues[i] = 1.0 * ((double) std::rand() - (double)RAND_MAX /2.0) /(double)RAND_MAX;
-    yvalues[i] = 1.0 * ((double) std::rand() - (double)RAND_MAX /2.0) /(double)RAND_MAX;
-    zvalues[i] = 1.0 * ((double) std::rand() - (double)RAND_MAX /2.0) /(double)RAND_MAX;
-  }
-}
 
 TEST(RealtimeCircularBuffer, InitializationScalar)
 {

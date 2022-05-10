@@ -29,8 +29,9 @@
 
 #include <ros/ros.h>
 #include <gtest/gtest.h>
+#include <sys/time.h>
 #include <vector>
-#include "filters/transfer_function.h"
+#include "filters/transfer_function.hpp"
 
 using namespace filters ;
 
